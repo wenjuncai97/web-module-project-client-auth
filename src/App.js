@@ -27,11 +27,11 @@ function App() {
           <Redirect to="/" />
         </Route>
 
-        <PrivateRoute exact path="/friends" component={FriendsList}/>
+        <PrivateRoute exact path="/friends" component={FriendsList} />
 
-        <PrivateRoute exact path="/friends/add" component={AddFriend}/>
+        <PrivateRoute exact path="/friends/add" component={AddFriend} />
 
-        <PrivateRoute exact path="/logout" component={Logout}/>
+        <PrivateRoute exact path="/logout" component={Logout} />
       </div>
     </Router>
   );
